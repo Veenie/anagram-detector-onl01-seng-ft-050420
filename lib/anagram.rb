@@ -9,7 +9,7 @@ class Anagram
 
   end 
 
-  def match(grams)
+  def match(array)
     
     grams.each do |result|
       result.split(" ")
