@@ -3,14 +3,7 @@
 
 class Anagram
   attr_reader :grams
-  @@values = []
-  
-  @@matching = []
-  @@matching2 = []
-  
-  @@final = []
 
-  
   def initialize(grams)
    @grams = grams
    b = grams.clone
