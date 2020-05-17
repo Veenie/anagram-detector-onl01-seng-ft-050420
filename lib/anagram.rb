@@ -11,15 +11,5 @@ class Anagram
 
   def match(array)
     
-    grams.each do |result|
-      result.split(" ")
-      if result == @@values.sort.reverse
-        @@final << result
-      else
-        nil 
-      end  
-    end
-    @@final
 
-  end  
 end
