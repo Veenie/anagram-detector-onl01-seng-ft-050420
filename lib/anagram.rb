@@ -6,8 +6,6 @@ class Anagram
 
   def initialize(grams)
    @grams = grams
-   b = grams.clone
-   @@values << b.split
 
   end 
 
